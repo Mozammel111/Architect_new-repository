@@ -73,16 +73,48 @@
     color: #727272;
 }
 .btn_primary{
-    height: 75px;
-    width: 200px;
-    border: 2px solid black;
+    /* height: 75px; */
+    /* width: 200px; */
+    /* border: 2px solid black; */
     font-size: 1.5rem;
     font-weight: 500;
     border-radius: 10px;
     color: black;
     background-color: grey;
+    margin-top: 50px;
+    padding: 20px 25px;
+    cursor: pointer;
 }
-    
 
-    
+.banner img{
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+        
     /* banner part end */
+
+    /* responsive media query  for header part*/
+
+    /* mobile devices */
+    @media screen and (max-width: 576px) {
+        header{
+            padding: 20px;
+        }
+        nav{
+        flex-direction: column;
+        }
+        nav{
+            flex-direction: column;
+        }
+    }
+
+    /* medium devices */
+    @media screen and (min-width: 576px) and (max-width: 960px) {
+        header{
+            padding: 50px;
+        }
+        nav{
+            flex-direction: column;
+        }
+    }
