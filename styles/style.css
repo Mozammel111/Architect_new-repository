@@ -5,6 +5,23 @@
     font-family: 'Work Sans', sans-serif;
 
   }
+
+  .section_title{
+    color: orange;
+    font-size: 2.8rem;
+    position: relative;
+  }
+
+  .section_title::before{
+    position: absolute;
+    content: '';
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    background-color: grey;
+    width: 100%;
+  }
+
 /* nav part start */
   header{
     background-color: bisque;
@@ -141,14 +158,72 @@
 .teams_description{
     font-size: 1.25rem;
     font-weight: 400;
-    color: grey;
-    
+    color: grey;   
+}
+/* teams part end */
+/* feature part start */
+
+------
+
+
+/* feature part end */
+
+/* facts part start */
+
+.facts_description{
+  font-size: 1rem;
+  width: 600px;
+  color: grey;
+}
+.facts_card_container{
+  display: flex;
+  justify-content: space-around;
+}
+.facts_card_container .card{
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: center;
+  margin: 50px auto;
+  padding: 30px 30px;
+}
+
+.facts_card_container .card img{
+  width: 8rem;
+  height: 4rem;
+}
+
+.facts_card_container .card .card_stats{
+  font-size: 2.8rem;
+  color: tomato;
+  font-weight: 600;
+}
+.facts_card_container .card .card_title{
+  font-size: 1.5rem;
+  color:#424242;
+  font-weight: 500;
+
 }
 
 
 
+/* facts part end */
 
-    /* teams part end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
      /* responsive media query  for header part*/
 
